@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: #2b2a2a;
+    color: white;
+    height: 3rem;
+    padding-top: 17px;
+   
+}
+body{
+background-image: url('https://wallpapers.com/images/hd/paper-texture-background-nmtidduuycddycc5.jpg');
+}
+.gamebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+   
+  }
+  .box{
+   
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow:5px 5px 10px;
+    background-color: rgb(186, 185, 185);
+    cursor: pointer;
+    font-size: 40px;
+    color: black;
+  }
+  
+  .box:hover{
+opacity: 90% ;
+
+  }
+  .restbtn{
+    margin-top: 3rem;
+    text-align: center; 
+    
+}
+.reset{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(31, 30, 32);
+    border-radius: 20px;
+    box-shadow:5px 5px 10px;
+    cursor: pointer;
+    color: white;
+
+
+}
+.reset:hover{
+    opacity: 90%;
+}
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+
+}
+#new-btn:hover{
+  opacity: 80%;
+}
+
+#msg {
+  color: #141414;
+  font-size: 5vmin;
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
