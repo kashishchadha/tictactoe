@@ -23,13 +23,6 @@ Welcome to the enhanced version of the classic Tic Tac Toe game, developed using
 
 - **HTML, CSS, and JavaScript:** Utilizing fundamental web technologies to deliver a simple yet engaging user experience.
 
-## Getting Started
-
-Clone the repository:
-
-```bash
-git clone https://github.com/SubhodeepSamanta/TicTacToe.git
-
 ## License
 This project is licensed under the MIT License.
 
